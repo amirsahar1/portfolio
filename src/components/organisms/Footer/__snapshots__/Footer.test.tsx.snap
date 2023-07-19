@@ -11,7 +11,7 @@ exports[`Footer renders correctly 1`] = `
       <span>
         © 
         2023
-         Amir Sahar
+         Jacob Herper
       </span>
       <ul
         class="flex gap-6"
