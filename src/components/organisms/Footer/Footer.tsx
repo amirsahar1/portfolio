@@ -16,7 +16,7 @@ const Footer = () => {
 					profiles={[
 						{
 							name: 'Github',
-							url: 'https://github.com/amirsr',
+							url: 'https://github.com/amirsahar1',
 							icon: <IconGithub />,
 						},
 						{

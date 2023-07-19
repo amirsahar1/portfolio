@@ -52,7 +52,7 @@ export const personJsonLd = {
 	},
 	sameAs: [
 		'www.linkedin.com/in/amir-sahar-89145011a',
-		'https://github.com/amirsr',
+		'https://github.com/amirsahar1',
 	],
 	brand: [
 		{
