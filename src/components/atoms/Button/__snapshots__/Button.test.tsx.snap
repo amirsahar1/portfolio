@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ArrowButton renders ArrowButton correctly 1`] = `
+<div>
+  <button
+    class="rounded-md bg-blue-700 hover:bg-blue-600 active:bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-all"
+  >
+    ArrowButton
+  </button>
+</div>
+`;
+
+exports[`ArrowButton renders Link correctly 1`] = `
+<div>
+  <a
+    class="rounded-md bg-blue-700 hover:bg-blue-600 active:bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-all"
+    href="/"
+  >
+    ArrowButton Link
+  </a>
+</div>
+`;
