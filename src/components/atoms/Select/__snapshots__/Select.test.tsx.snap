@@ -13,7 +13,6 @@ exports[`Select renders correctly 1`] = `
       name="some-select"
     >
       <option
-        selected=""
         value="none"
       >
         Please select

@@ -3,7 +3,7 @@ export const websiteJsonLd = {
 	'@type': 'WebSite',
 	name: 'amir-sahar.com',
 	alternateName: 'Amir Sahar',
-	url: 'https://amir-sahar.com/',
+	url: 'https://amir-sahar.com',
 	description:
 		'Front-End Software Engineer with a focus on React.js and TypeScript. I have more than 8 years experience working in software engineering.',
 	image:
@@ -17,7 +17,7 @@ export const personJsonLd = {
 		'https://amir-sahar.com/_next/image?url=%2Fassets%2Famir.jpg&w=1080&q=75',
 	name: 'amir sahar',
 	alternateName: 'AmirSahar',
-	url: 'https://amir-sahar.com/',
+	url: 'https://amir-sahar.com',
 	jobTitle: [
 		'Senior Software Engineer',
 		'Senior Software Consultant',

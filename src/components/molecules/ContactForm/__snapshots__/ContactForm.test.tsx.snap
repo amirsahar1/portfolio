@@ -108,11 +108,6 @@ exports[`ContactForm renders correctly 1`] = `
             General Inquiry
           </option>
           <option
-            value="I am a recruiter and want to hire you"
-          >
-            I am a recruiter and want to hire you
-          </option>
-          <option
             value="Other"
           >
             Other
@@ -141,7 +136,7 @@ exports[`ContactForm renders correctly 1`] = `
         class="mt-6"
       >
         <button
-          class="rounded-md bg-blue-700 hover:bg-blue-600 active:bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-all group"
+          class="rounded-md bg-gradient-to-r from-blue-500 to-purple-600 hover:scale-105 hover:shadow-lg dark:shadow-sm dark:hover:shadow-white active:bg-blue-800 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-blue-600 transition-all group"
           type="submit"
         >
           Send Message
