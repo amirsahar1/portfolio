@@ -24,7 +24,7 @@ import Link from 'next/link';
 
 export const metadata = {
 	title:
-		'About Amir Sahar, a Senior Software Engineer and Consultant in the UK',
+		'About Amir Sahar, a Senior Software Engineer and Consultant in Israel',
 	description:
 		'As a passionate front-end software developer, I create amazing websites and web apps to make the internet a better place.',
 };
