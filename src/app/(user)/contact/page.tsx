@@ -5,7 +5,7 @@ import { ContactForm } from '@components/molecules/ContactForm';
 export const metadata = {
 	title: 'Contact Amir Sahar - Software Engineer in Israel',
 	description:
-		'This is a comprehensive list of tech equipment and software I use for my day-to-day work as a software engineer in the UK.',
+		'This is a comprehensive list of tech equipment and software I use for my day-to-day work as a software engineer in Israel.',
 };
 
 const ContactPage = () => {
