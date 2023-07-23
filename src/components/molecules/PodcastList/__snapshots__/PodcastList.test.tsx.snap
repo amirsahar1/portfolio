@@ -6,7 +6,7 @@ exports[`PodcastList renders correctly 1`] = `
     class="scroll-mandatory relative -mx-4 flex w-[100vw] snap-x gap-4 overflow-x-auto px-4 pb-14 md:mx-0 md:w-full md:px-0"
   >
     <li
-      class="h-[128px] w-[128px] shrink-0 snap-center overflow-hidden rounded-lg bg-transparent p-1 transition-all hover:bg-gradient-to-r hover:from-blue-400 hover:to-blue-700"
+      class="h-[128px] w-[128px] shrink-0 snap-center overflow-hidden rounded-lg bg-transparent p-1 transition-all hover:bg-gradient-to-r hover:from-blue-400 hover:to-purple-700"
     >
       <a
         href="https://www.syntax.fm/"
