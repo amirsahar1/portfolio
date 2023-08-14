@@ -21,7 +21,7 @@ const contactHandler = async (req: NextApiRequest, res: NextApiResponse) => {
 		host: 'smtp-relay.brevo.com',
 		port: 587,
 		auth: {
-			user: 'saharamir202@gmail.com',
+			user: 'amir@amir-sahar.com',
 			pass: brevoApiKey,
 		},
 	});
@@ -32,8 +32,8 @@ const contactHandler = async (req: NextApiRequest, res: NextApiResponse) => {
 				{
 					from: `${firstName} ${lastName}${
 						company ? `(${company})` : ''
-					} <saharamir202@gmail.com>`,
-					to: 'saharamir202@gmail.com',
+					} <amir@amir-sahar.com>`,
+					to: 'amir@amir-sahar.com',
 					replyTo: email,
 					subject: `Website Contact: ${subject} (Ticket ${ticketNumber})`,
 					text: message,
