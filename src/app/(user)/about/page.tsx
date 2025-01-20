@@ -20,8 +20,7 @@ import LogoNx from '@root/public/assets/tools/nx.svg';
 import LogoReact from '@root/public/assets/tools/react-framework.svg';
 import LogoStorybook from '@root/public/assets/tools/storybook.svg';
 import type { Education as EducationType, Job, Podcast } from '@types';
-import Link from 'next/link';
-import React from "react";
+import React from 'react';
 
 export const metadata = {
 	title:
