@@ -33,7 +33,6 @@ export const metadata = {
 
 const HomePage = async () => {
 	const { services } = await getData();
-
 	return (
 		<AnimatePage>
 			<HeroSection />

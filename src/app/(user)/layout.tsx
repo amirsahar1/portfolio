@@ -22,7 +22,7 @@ export default function RootLayout({ children }: PropsWithChildren) {
 				/>
 			</head>
 			<body
-				className={`${basierCircle.variable} bg-off-white dark:bg-slate-950`}
+				className={`${basierCircle.variable} bg-off-white dark:bg-neutral-950`}
 			>
 				<div className="absolute w-full max-w-[1920px] my-auto overflow-hidden pointer-events-none md:-top-[90%]">
 					<Blob />

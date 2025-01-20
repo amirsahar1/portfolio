@@ -21,17 +21,13 @@ export const HeroSection = () => {
 	return (
 		<section id="hero" className="relative isolate overflow-hidden">
 			<div className="bg-gradient-from-t absolute inset-x-0 bottom-0 -z-10 h-24 from-off-white dark:from-slate-950 sm:h-32" />
-			<div
-				className="absolute inset-y-0 right-1/2 -z-10 -mr-96 w-[200%] origin-top-right skew-x-[-30deg] dark:shadow-slate-700 sm:-mr-80 lg:-mr-96 lg:shadow-xl"
-				aria-hidden="true"
-			/>
 			<div className="mx-auto max-w-7xl px-6 lg:px-8 lg:py-32">
 				<div className="mx-auto max-w-2xl lg:mx-0 lg:grid lg:max-w-none lg:grid-cols-2 lg:gap-x-16 lg:gap-y-6 xl:grid-cols-1 xl:grid-rows-1 xl:gap-x-8">
 					<h1 className="headline max-w-2xl text-4xl font-bold tracking-tight sm:text-6xl lg:col-span-2 xl:col-auto md:leading-normal lg:leading-normal">
 						Hey, I&apos;m Amir Sahar
 					</h1>
 					<div className="mt-6 max-w-xl lg:mt-0 xl:col-end-1 xl:row-start-1">
-						<p className="text-lg leading-8 text-slate-600 dark:text-off-white">
+						<p className="text-lg xl:text-xl leading-8 text-slate-600 dark:text-off-white">
 							I am a passionate Software Engineer, specialised in front-end
 							development using React and TypeScript.
 							<br />
@@ -62,7 +58,6 @@ export const HeroSection = () => {
 					/>
 				</div>
 			</div>
-			<div className="absolute inset-x-0 bottom-0 -z-10 h-24 bg-gradient-to-t from-off-white dark:from-slate-950 sm:h-32" />
 		</section>
 	);
 };

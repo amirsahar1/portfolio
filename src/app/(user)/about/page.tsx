@@ -21,6 +21,7 @@ import LogoReact from '@root/public/assets/tools/react-framework.svg';
 import LogoStorybook from '@root/public/assets/tools/storybook.svg';
 import type { Education as EducationType, Job, Podcast } from '@types';
 import Link from 'next/link';
+import React from "react";
 
 export const metadata = {
 	title:
@@ -86,37 +87,6 @@ const AboutPage = async () => {
 				</p>
 
 				<Education education={education} />
-
-				<section id="cv-download">
-					<h2 className="headline mb-4 mt-12 text-4xl">
-						Interested in what I have to offer?
-					</h2>
-
-					<p>
-						I am happy to have a chat about relevant projects to work on. Below
-						you find a download link for my up-to-date CV
-					</p>
-					<p>
-						If you are interested in working with me, please contact me via{' '}
-						<Link
-							href="/contact"
-							className="underlined relative border-b-2 border-grey-300 font-bold hover:border-b-0 dark:border-grey-700"
-						>
-							the contact form
-						</Link>
-					</p>
-
-					<div className="mt-8 flex justify-start gap-6 items-baseline">
-						<Button
-							href="/cv-23.pdf"
-							download={true}
-							className="group flex gap-2 whitespace-nowrap"
-						>
-							<IconDownload />
-							Download my CV
-						</Button>
-					</div>
-				</section>
 			</Container>
 		</AnimatePage>
 	);

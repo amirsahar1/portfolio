@@ -1,3 +1,4 @@
+import classNames from 'classnames';
 import type { ReactNode } from 'react';
 
 export interface SocialIconsProps {
@@ -6,11 +7,12 @@ export interface SocialIconsProps {
 		name: string;
 		icon: ReactNode;
 	}>;
+	className?: string;
 }
 
-const SocialIcons = ({ profiles }: SocialIconsProps) => {
+const SocialIcons = ({ profiles, className }: SocialIconsProps) => {
 	return (
-		<ul className="flex gap-6">
+		<ul className={classNames(className, 'flex gap-6')}>
 			{profiles.map(({ url, name, icon }) => (
 				<li
 					className="text-2xl opacity-70 transition hover:opacity-100"
