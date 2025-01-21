@@ -49,8 +49,8 @@ const WorkExperience = ({ jobs }: WorkExperienceProps) => {
 										key={cl.name}
 										src={cl.logo}
 										alt={cl.name}
-										width={92}
-										height={92}
+										width={72}
+										height={72}
 										className="rounded-md"
 									/>
 								))}
