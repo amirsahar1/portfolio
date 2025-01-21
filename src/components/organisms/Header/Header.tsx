@@ -20,10 +20,6 @@ export const navItems = [
 		title: 'About',
 	},
 	{
-		href: '/experience',
-		title: 'Experience',
-	},
-	{
 		href: '/contact',
 		title: 'Contact',
 	},
