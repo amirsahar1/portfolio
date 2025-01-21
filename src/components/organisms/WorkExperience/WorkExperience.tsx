@@ -103,10 +103,7 @@ const WorkExperience = ({ jobs, education }: WorkExperienceProps) => {
 					<Timeline data={mappedJobs} />
 				</div>
 			</section>
-			<Vortex
-				className=" px-2 md:px-10 py-4 w-full h-full"
-				baseHue={200}
-			>
+			<Vortex className=" px-2 md:px-10 py-4 w-full h-full" baseHue={200}>
 				<h2 className="headline mb-12 mt-24 text-center text-5xl">Education</h2>
 				<Education education={education} />
 				<h2 className="headline mb-12 mt-24 text-center text-5xl">Tools</h2>
