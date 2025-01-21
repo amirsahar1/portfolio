@@ -15,7 +15,7 @@ export interface WorkExperienceProps {
 
 const clients = [
 	{
-		logo: 'https://cdn.sanity.io/images/6gcgnevh/production/af45cd446acc543b81fbad6a37b1e36e0d0b36f6-64x64.png',
+		logo: 'https://cdn.sanity.io/images/6gcgnevh/production/f39a7208f423350283e0d4e9c5aacf4f3531f2ea-500x500.jpg',
 		name: 'Elevance Health',
 		url: 'https://www.elevancehealth.com/',
 	},
