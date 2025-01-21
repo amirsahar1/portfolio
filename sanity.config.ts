@@ -4,8 +4,8 @@ import { codeInput } from '@sanity/code-input';
 import { visionTool } from '@sanity/vision';
 import { schemaTypes } from '@schemas';
 import { defineConfig } from 'sanity';
-import { deskTool } from 'sanity/desk';
 import { vercelDeployTool } from 'sanity-plugin-vercel-deploy';
+import { deskTool } from 'sanity/desk';
 
 export default defineConfig({
 	name: 'portfolio-content-studio',

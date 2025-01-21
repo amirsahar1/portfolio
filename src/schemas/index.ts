@@ -2,6 +2,7 @@ import author from './author';
 import blockContent from './blockContent';
 import caseStudy from './caseStudy';
 import category from './category';
+import client from './client';
 import company from './company';
 import education from './education';
 import job from './job';
@@ -17,6 +18,7 @@ export const schemaTypes = [
 	blockContent,
 	caseStudy,
 	category,
+	client,
 	company,
 	education,
 	job,

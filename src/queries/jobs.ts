@@ -8,6 +8,11 @@ export const jobsQuery = groq`
     url,
     "logo": logo.asset->.url,
   },
+  "clients":clients[]->{
+    name,
+    url,
+    "logo": logo.asset->.url,
+  },
   description,
   fromDate,
   toDate,
