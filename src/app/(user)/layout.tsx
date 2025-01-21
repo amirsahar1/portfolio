@@ -20,6 +20,10 @@ export default function RootLayout({ children }: PropsWithChildren) {
 					sizes="32x32"
 					href="/assets/favicon.svg"
 				/>
+				<link
+					href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap"
+					rel="stylesheet"
+				/>
 			</head>
 			<body
 				className={`${basierCircle.variable} bg-off-white dark:bg-neutral-950`}

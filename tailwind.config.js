@@ -28,6 +28,7 @@ module.exports = {
 			},
 			fontFamily: {
 				sans: ['--font-basier-circle', ...fontFamily.sans],
+				handwrite: ['Dancing Script', 'cursive'],
 			},
 			listStyleType: {
 				disc: 'disc',

@@ -28,10 +28,10 @@ const Logo = ({ hideName }: LogoProps) => {
 				/>
 				{!hideName && (
 					<>
-						<span className=" bg-gradient-to-r bg-clip-text text-transparent from-blue-400 to-purple-700 transition duration-300 group-hover:opacity-0">
-							@amirsahar.74
+						<span className=" font-handwrite text-4xl font-bold drop-shadow-lg  bg-gradient-to-r bg-clip-text text-transparent from-blue-400 to-purple-700 transition duration-300 group-hover:opacity-0">
+							AmirSahar
 						</span>
-						<span className="absolute left-16 from-blue-500 to-purple-700 opacity-0 transition duration-300 group-hover:bg-gradient-to-r group-hover:bg-clip-text group-hover:text-transparent group-hover:opacity-100">
+						<span className="absolute text-4xl left-16 from-blue-500 to-purple-700 opacity-0 transition duration-300 group-hover:bg-gradient-to-r group-hover:bg-clip-text group-hover:text-transparent group-hover:opacity-100">
 							Amir Sahar
 						</span>
 					</>
