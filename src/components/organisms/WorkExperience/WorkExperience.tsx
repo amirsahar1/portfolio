@@ -119,14 +119,14 @@ const WorkExperience = ({ jobs, education }: WorkExperienceProps) => {
 						<div className="mx-auto mt-8 flex max-w-5xl flex-wrap items-center justify-center gap-x-32 gap-y-4">
 							<LogoNext className="w-20 sm:w-32" aria-label="Next.js" />
 							<LogoMongoDb className="w-20 sm:w-32" aria-label="Mongo" />
-							<LogoNx className="w-20 sm:w-32" aria-label="Sanity" />
+							<LogoNx className="w-16 sm:w-20" aria-label="Sanity" />
+							<LogoAws className="w-20 sm:w-32" aria-label="Aws" />
 							<LogoNode className="w-20 sm:w-32" aria-label="Node.js" />
 							<LogoNest className="w-20 sm:w-32" aria-label="Nest.js" />
-							<LogoAws className="w-20 sm:w-32" aria-label="Aws" />
 							<LogoStorybook className="w-20 sm:w-32" aria-label="Storybook" />
-							<LogoReact className="w-20 sm:w-32" aria-label="React" />
+							<LogoReact className="w-16 sm:w-20" aria-label="React" />
 							<LogoCypress className="w-20 sm:w-32" aria-label="Cypress" />
-							<LogoTs className="w-20 sm:w-32" aria-label="TypeScript" />
+							<LogoTs className="w-16 sm:w-20" aria-label="TypeScript" />
 							<LogoDocker className="w-20 sm:w-32" aria-label="Docker" />
 						</div>
 					</Container>
