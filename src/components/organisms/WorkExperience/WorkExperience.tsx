@@ -23,6 +23,7 @@ import type { Job as JobType } from '@types';
 import dayjs from 'dayjs';
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
+import { useMediaQuery } from 'usehooks-ts';
 
 export interface WorkExperienceProps {
 	jobs: JobType[];
@@ -30,6 +31,7 @@ export interface WorkExperienceProps {
 }
 
 const WorkExperience = ({ jobs, education }: WorkExperienceProps) => {
+	const matches = useMediaQuery('(min-width: 768px)');
 	const mappedJobs = jobs.map((job: JobType) => {
 		const from = dayjs(job.fromDate);
 		const to = dayjs(job.toDate);
@@ -103,7 +105,11 @@ const WorkExperience = ({ jobs, education }: WorkExperienceProps) => {
 					<Timeline data={mappedJobs} />
 				</div>
 			</section>
-			<Vortex className=" px-2 md:px-10 py-4 w-full h-full" baseHue={200}>
+			<Vortex
+				className=" px-2 md:px-10 py-4 w-full h-full"
+				baseHue={200}
+				rangeY={!matches ? 800 : 100}
+			>
 				<h2 className="headline mb-12 mt-24 text-center text-5xl">Education</h2>
 				<Education education={education} />
 				<h2 className="headline mb-12 mt-24 text-center text-5xl">Tools</h2>
