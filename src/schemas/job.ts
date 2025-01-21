@@ -38,6 +38,17 @@ export default defineType({
 			],
 		}),
 		defineField({
+			name: 'clients',
+			title: 'Clients',
+			type: 'array',
+			of: [
+				{
+					type: 'reference',
+					to: [{ type: 'client' }],
+				},
+			],
+		}),
+		defineField({
 			name: 'description',
 			title: 'Description',
 			type: 'blockContent',

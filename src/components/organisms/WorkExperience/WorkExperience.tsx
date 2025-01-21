@@ -1,36 +1,21 @@
 'use client';
 
+import { AnimatedTooltip } from '@components/atoms/AnimatedTooltip/animatedTooltip';
 import { ContentBlock } from '@components/atoms/ContentBlock';
 import { Timeline } from '@components/atoms/Timeline/timeline';
 
-import type { Company, Job as JobType } from '@types';
+import { Client as ClientType } from '@root/src/types/client';
+import type { Job as JobType } from '@types';
 import dayjs from 'dayjs';
-import Image from 'next/image';
 import React from 'react';
 import 'react-responsive-carousel/lib/styles/carousel.min.css';
 
 export interface WorkExperienceProps {
 	jobs: JobType[];
+	clients: ClientType[];
 }
 
-const clients = [
-	{
-		logo: 'https://cdn.sanity.io/images/6gcgnevh/production/f39a7208f423350283e0d4e9c5aacf4f3531f2ea-500x500.jpg',
-		name: 'Elevance Health',
-		url: 'https://www.elevancehealth.com/',
-	},
-	{
-		logo: 'https://cdn.sanity.io/images/6gcgnevh/production/3a8de988e9e04a1301eef7b01863478fc8e97700-200x200.png',
-		name: 'Eleos',
-		url: 'https://eleos.health/',
-	},
-	{
-		logo: 'https://cdn.sanity.io/images/6gcgnevh/production/ab59eb8b648d4194976df993ef98cbc6ad6480f4-256x256.png',
-		name: 'the5ers',
-		url: 'https://the5ers.com/',
-	},
-];
-const WorkExperience = ({ jobs }: WorkExperienceProps) => {
+const WorkExperience = ({ jobs, clients }: WorkExperienceProps) => {
 	const mappedJobs = jobs.map((job: JobType) => {
 		const from = dayjs(job.fromDate);
 		const to = dayjs(job.toDate);
@@ -43,25 +28,28 @@ const WorkExperience = ({ jobs }: WorkExperienceProps) => {
 					<div className="text-lg mb-2">{job.company.name}</div>
 					<div>
 						{job.company.name === 'Independent Consulting' ? (
-							<div className="flex md:flex-col flex-row gap-4">
-								{clients.map((cl) => (
-									<Image
-										key={cl.name}
-										src={cl.logo}
-										alt={cl.name}
-										width={72}
-										height={72}
-										className="rounded-md"
-									/>
-								))}
+							<div className="flex flex-row md:flex-col gap-6">
+								<AnimatedTooltip
+									items={clients.map((cl, index) => {
+										return {
+											id: index,
+											name: cl.name,
+											image: cl.logo,
+											url: cl.url,
+										};
+									})}
+								/>
 							</div>
 						) : (
-							<Image
-								src={job.company.logo}
-								alt={job.company.name}
-								width={92}
-								height={92}
-								className="rounded-md"
+							<AnimatedTooltip
+								items={[
+									{
+										id: 1,
+										name: job.company.name,
+										image: job.company.logo,
+										url: job.company.url,
+									},
+								]}
 							/>
 						)}
 					</div>
