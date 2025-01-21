@@ -107,8 +107,9 @@ const WorkExperience = ({ jobs, education }: WorkExperienceProps) => {
 			</section>
 			<Vortex
 				className=" px-2 md:px-10 py-4 w-full h-full"
-				baseHue={200}
+				baseHue={180}
 				rangeY={!matches ? 1200 : 100}
+				particleCount={matches ? 700 : 200}
 			>
 				<h2 className="headline mb-12 mt-24 text-center text-5xl">Education</h2>
 				<Education education={education} />
