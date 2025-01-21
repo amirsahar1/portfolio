@@ -108,7 +108,7 @@ const WorkExperience = ({ jobs, education }: WorkExperienceProps) => {
 			<Vortex
 				className=" px-2 md:px-10 py-4 w-full h-full"
 				baseHue={200}
-				rangeY={!matches ? 800 : 100}
+				rangeY={!matches ? 1200 : 100}
 			>
 				<h2 className="headline mb-12 mt-24 text-center text-5xl">Education</h2>
 				<Education education={education} />
@@ -117,17 +117,17 @@ const WorkExperience = ({ jobs, education }: WorkExperienceProps) => {
 				<section id="tools" className="mb-24">
 					<Container>
 						<div className="mx-auto mt-8 flex max-w-5xl flex-wrap items-center justify-center gap-x-32 gap-y-4">
-							<LogoNext className="w-32" aria-label="Next.js" />
-							<LogoMongoDb className="w-32 h-32" aria-label="Mongo" />
-							<LogoNx className="w-16" aria-label="Sanity" />
-							<LogoNode className="w-32" aria-label="Node.js" />
-							<LogoNest className="w-40" aria-label="Nest.js" />
-							<LogoAws className="w-32 h-32" aria-label="Aws" />
-							<LogoStorybook className="w-32" aria-label="Storybook" />
-							<LogoReact className="w-20" aria-label="React" />
-							<LogoCypress className="w-32" aria-label="Cypress" />
-							<LogoTs className="w-20" aria-label="TypeScript" />
-							<LogoDocker className="w-24" aria-label="Docker" />
+							<LogoNext className="w-20 sm:w-32" aria-label="Next.js" />
+							<LogoMongoDb className="w-20 sm:w-32" aria-label="Mongo" />
+							<LogoNx className="w-20 sm:w-32" aria-label="Sanity" />
+							<LogoNode className="w-20 sm:w-32" aria-label="Node.js" />
+							<LogoNest className="w-20 sm:w-32" aria-label="Nest.js" />
+							<LogoAws className="w-20 sm:w-32" aria-label="Aws" />
+							<LogoStorybook className="w-20 sm:w-32" aria-label="Storybook" />
+							<LogoReact className="w-20 sm:w-32" aria-label="React" />
+							<LogoCypress className="w-20 sm:w-32" aria-label="Cypress" />
+							<LogoTs className="w-20 sm:w-32" aria-label="TypeScript" />
+							<LogoDocker className="w-20 sm:w-32" aria-label="Docker" />
 						</div>
 					</Container>
 				</section>
