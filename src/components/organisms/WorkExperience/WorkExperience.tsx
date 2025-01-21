@@ -57,10 +57,10 @@ const WorkExperience = ({ jobs, clients }: WorkExperienceProps) => {
 			),
 			content: (
 				<div>
-					<div className="text-2xl">{job.jobTitle}</div>
-					<p className="text-neutral-800 dark:text-neutral-200 text-xs md:text-sm font-normal mb-8">
+					<div className="text-xl md:text-2xl">{job.jobTitle}</div>
+					<div className="text-neutral-800 dark:text-neutral-200 font-normal mb-8">
 						<ContentBlock value={job.description} />
-					</p>
+					</div>
 				</div>
 			),
 		};

@@ -45,7 +45,7 @@ const components: Partial<PortableTextReactComponents> = {
 	},
 
 	listItem: ({ children }) => (
-		<li className="text-base leading-6">{children}</li>
+		<li className="leading-6 text-sm md:text-lg">{children}</li>
 	),
 
 	block: {
