@@ -49,7 +49,7 @@ const Footer = () => {
 
 							<div className="mt-8  flex justify-center gap-6 items-baseline">
 								<Button
-									href="/resume.pdf"
+									href="/cv-23.pdf"
 									download={true}
 									className="group flex gap-2 whitespace-nowrap"
 								>
